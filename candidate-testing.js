@@ -2,7 +2,7 @@ const input = require('readline-sync');
 
 // TODO 2: modify your quiz app to ask 5 questions //
 
-// TODO 1.1a: Define candidateName // 
+// TODO 1.1a: Define candidateName //
 let candidateName = "";
 
 
@@ -45,14 +45,14 @@ for (let i = 0; i < questions.length; i++) {
 function gradeQuiz(candidateAnswers) {
 let numberOfCorrectAnswers = 0;
 
-  // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
+  // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly //
 
 
 for (let i = 0; i < candidateAnswers.length; i++) {
 
   //console.log(candidateAnswers[i].toLowerCase + " " + correctAnswers[i].toLowerCase);
   if ((candidateAnswers[i].toLowerCase()) == correctAnswers[i].toLowerCase()){
-   numberOfCorrectAnswers++;
+  numberOfCorrectAnswers++;
   }
 }
   
